@@ -1,9 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
 * {
     padding: 0;
     margin: 0;
 }
 
-nav {
+@font-face {
+    font-family: 'Far From Homecoming';
+    src: url(../Far-From\ Homecoming\ Updated.otf);
+}
+
+#header1 {
     background-color: #B11313;
+}
+
+nav {
     margin: 0;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+ul {
+    margin: 0;
+}
+
+.navbar {
+    padding: 0;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar:hover {
+    color: white;
+}
+
+.logo {
+    margin: 2%;
+}
+
+li {
+    margin: 3%;
+}
+
+#logo {
+    padding-top: 1.5%;
+}
+
+.page1_section1 {
+    background-color: #F1C530;
+}
+
+.titre1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Far From Homecoming', sans-serif;
+}
+
+.sous-sous-titre {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: white;
+    font-weight: 500;
+}
+
+.part1 {
+    margin: 0;
+    padding: 0;
+}
+
+.Spider-man1 {
+    padding: 0;
+}
+
+.text1 {
+    padding-top: 5%;
+    text-align: left;
+    padding-left: 12%;
+}
+
+.page1_section2 {
+    background-color: #B11313;
+}
+
+h1 {
+    color: white;
+    font-size: 32px;
+    font-family: 'Far From Homecoming', sans-serif;
+}
+
+p {
+    margin: 0;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input1 {
+    height: 1.5em;
+    width: 16em;
+    border-radius: 20px;
+    border: 1px 1px 1px white !important;
+    background-color: #B11313;
+}
+
+
+/**changer la couleur du texte palceholder**/
+
+.input1::placeholder {
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-text {
+    width: 16em;
+    border-radius: 20px;
+    background-color: #B11313;
+    border: 1px solid white !important;
+}
+
+.input-text::placeholder {
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.button1 {
+    padding: 5% 0;
+}
+
+#button1 {
+    width: 12em;
+    height: 3em;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #B11313;
+    border: 1px solid white !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.page1_section3 {
+    background-color: #114C92;
+}
+
+.list-text {
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+.button2 {
+    width: 12em;
+    height: 3em;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #114C92;
+    border: 1px solid white !important;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.footer1 {
+    background-color: #000000;
+    padding: 6% 0;
+}
+
+.footer-link {
+    text-decoration: none;
+    color: white;
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.footer-link:hover {
+    color: #B11313;
+}
+
+select {
+    background-color: #B11313;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid #B11313;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    height: 2em;
+    margin: 0 2%;
+}
+
+.logo-footer {
+    background-color: #B11313;
+    border-radius: 50%;
+    width: 150%;
+    padding: 10%;
 }
