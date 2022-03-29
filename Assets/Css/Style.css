@@ -95,6 +95,9 @@ p {
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
 }
+.petite{
+    padding-left: 12%;
+}
 
 .input1 {
     height: 1.5em;
@@ -131,7 +134,7 @@ p {
 }
 
 #button1 {
-    width: 12em;
+    width: 15em;
     height: 3em;
     font-size: 12px;
     border-radius: 10px;
@@ -194,4 +197,43 @@ select {
     border-radius: 50%;
     width: 150%;
     padding: 10%;
+}
+
+/*media queries*/
+@media  screen and (max-device-width:768px) {
+    #menu-deroulant{
+        justify-content: end;
+    }
+    #menu-deroulant ul{
+        position: absolute;
+    /*On cache les menus sur la gauche*/
+        left: -999em;
+        text-align: left;
+        z-index: 1000;
+    }
+    .points:focus #navbar{
+    /*Au clic des trois points on replace les menus*/
+        left: auto;
+    }
+    .petite{
+        padding-left: 0 !important;
+        text-align: center;
+    }
+    .input1{
+        width: 20em;
+    }
+    .input-text{
+        width: 20em;
+    }
+    form{
+        padding-top: 10%;
+    }
+    #button1{
+        background-color: white;
+        color: #B11313;
+    }
+    .text1{
+        padding-top: 0;
+    }
+    
 }
