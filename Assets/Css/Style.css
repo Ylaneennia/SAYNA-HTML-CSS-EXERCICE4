@@ -199,6 +199,21 @@ select {
     padding: 10%;
 }
 
+#logo-footer{
+    width: 100%;
+}
+
+.figure{
+    position: relative;
+}
+.figure-caption/*description de l'image*/
+{
+    text-align: left;
+    position: absolute;
+    top: 80%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
 /*media queries*/
 @media  screen and (max-device-width:768px) {
     #menu-deroulant{
@@ -235,5 +250,14 @@ select {
     .text1{
         padding-top: 0;
     }
-    
+    h1{
+        text-align: center;
+        padding-left: 0 !important;
+    }
+    .text-sayna{
+        text-align: center ;
+    }
+    .list-text{
+        list-style-type: none;
+    }
 }
