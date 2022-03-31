@@ -214,6 +214,79 @@ select {
     left: 20%;
     transform: translate(-50%, -50%);
 }
+.page3-section1{
+    background-image: url(../Illustration/img1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.button3{
+    width: 12em;
+    height: 3em;
+    font-size: 12px;
+    border-radius: 10px;
+    background-color: #B11313;
+    border: 1px solid rgba(255, 255, 255, 0.705) !important;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    margin: 1%;
+}
+.button3:hover{
+    background-color: white;
+    color: #B11313;
+}
+.page3-section2{
+    background-color: #B11313;
+    border: none;
+}
+.descri{
+    font-size: 12px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+.spider{
+    margin: 0;
+}
+.page3-section3{
+    background-color: #114C92;
+    background-image: url(../Illustration/img5-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: right;
+    padding-right: 15%;
+    padding-top: 4%;
+}
+.button4{
+    width: 15em;
+    height: 3em;
+    font-size: 12px;
+    color: white;
+    border-radius: 10px;
+    background-color: #114C92;
+    border: 1px solid white !important;
+    font-family: 'Montserrat', sans-serif;
+}
+.input2{
+    height: 1.5em;
+    width: 20em;
+    border-radius: 20px;
+    border: 1px 1px 1px white !important;
+}
+.form2{
+    text-align: right;
+    padding: 2% 0 4% 0;
+}
+#button4{
+    padding-right: 6%;
+}
+.page3-section4{
+    padding: 4% 0 6% 10%;
+    background-color: #B11313;
+    background-image: url(../Illustration/img6.png);
+    background-size: 60em;
+    background-repeat: no-repeat;
+    background-position: right center;
+}
 /*media queries*/
 @media  screen and (max-device-width:768px) {
     #menu-deroulant{
@@ -259,5 +332,20 @@ select {
     }
     .list-text{
         list-style-type: none;
+    }
+    .titre3{
+        font-size: 50px !important;
+        text-align: left;
+    }
+    .spider-peter{
+        text-align: center;
+        padding-top: 3%;
+    }
+    .page3-section3{
+        text-align: center;
+        padding: 5% 0;
+    }
+    #button4{
+        padding-right: 0;
     }
 }
