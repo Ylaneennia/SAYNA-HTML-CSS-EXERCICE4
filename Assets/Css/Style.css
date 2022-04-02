@@ -95,7 +95,8 @@ p {
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
 }
-.petite{
+
+.petite {
     padding-left: 12%;
 }
 
@@ -199,14 +200,17 @@ select {
     padding: 10%;
 }
 
-#logo-footer{
+#logo-footer {
     width: 100%;
 }
 
-.figure{
+.figure {
     position: relative;
 }
-.figure-caption/*description de l'image*/
+
+.figure-caption
+/*description de l'image*/
+
 {
     text-align: left;
     position: absolute;
@@ -214,13 +218,15 @@ select {
     left: 20%;
     transform: translate(-50%, -50%);
 }
-.page3-section1{
+
+.page3-section1 {
     background-image: url(../Illustration/img1.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: top;
 }
-.button3{
+
+.button3 {
     width: 12em;
     height: 3em;
     font-size: 12px;
@@ -231,23 +237,28 @@ select {
     color: white;
     margin: 1%;
 }
-.button3:hover{
+
+.button3:hover {
     background-color: white;
     color: #B11313;
 }
-.page3-section2{
+
+.page3-section2 {
     background-color: #B11313;
     border: none;
 }
-.descri{
+
+.descri {
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
     color: white;
 }
-.spider{
+
+.spider {
     margin: 0;
 }
-.page3-section3{
+
+.page3-section3 {
     background-color: #114C92;
     background-image: url(../Illustration/img5-1.png);
     background-repeat: no-repeat;
@@ -256,7 +267,8 @@ select {
     padding-right: 15%;
     padding-top: 4%;
 }
-.button4{
+
+.button4 {
     width: 15em;
     height: 3em;
     font-size: 12px;
@@ -266,20 +278,24 @@ select {
     border: 1px solid white !important;
     font-family: 'Montserrat', sans-serif;
 }
-.input2{
+
+.input2 {
     height: 1.5em;
     width: 20em;
     border-radius: 20px;
     border: 1px 1px 1px white !important;
 }
-.form2{
+
+.form2 {
     text-align: right;
     padding: 2% 0 4% 0;
 }
-#button4{
+
+#button4 {
     padding-right: 6%;
 }
-.page3-section4{
+
+.page3-section4 {
     padding: 6% 0 6% 10%;
     background-color: #B11313;
     background-image: url(../Illustration/img6.png);
@@ -287,7 +303,8 @@ select {
     background-repeat: no-repeat;
     background-position: right center;
 }
-.button5{
+
+.button5 {
     width: 15em;
     height: 3em;
     font-size: 12px;
@@ -297,106 +314,130 @@ select {
     border: 1px solid white !important;
     font-family: 'Montserrat', sans-serif;
 }
-.input3{
+
+.input3 {
     width: 16em;
     height: 1.5em;
     border-radius: 20px;
     background-color: #B11313;
     border: 1px solid white !important;
 }
+
 .input3::placeholder {
     color: white;
     font-size: 12px;
     font-family: 'Montserrat', sans-serif;
 }
-.form2>div>.input2{
+
+.form2>div>.input2 {
     border: 1px solid black;
 }
-.button4:hover{
+
+.button4:hover {
     background-color: white;
     color: #114C92;
 }
-.button5:hover{
+
+.button5:hover {
     background-color: white;
     color: #B11313;
 }
-#header2{
+
+#header2 {
     background-color: #114C92;
 }
-#language{
+
+#language {
     background-color: #114C92;
     border: 1px solid #114C92;
 }
+
 .logo-footer2 {
-    background-color: #114C92; 
+    background-color: #114C92;
     border-radius: 50%;
     width: 150%;
     padding: 10%;
 }
-.page4-section1{
+
+.page4-section1 {
     background-image: url(../Illustration/img19.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
-.page4-section2{
+
+.page4-section2 {
     background-color: #114C92;
 }
-.page4-section3{
+
+.page4-section3 {
     background-image: url(../Illustration/img20.png);
     background-size: cover;
     background-repeat: no-repeat;
     padding: 8% 0 17% 10%;
 }
-.page4-section4{
+
+.page4-section4 {
     background-color: #114C92;
 }
-.harry{
+
+.harry {
     position: absolute;
     top: 8em;
     left: 14em;
 }
-.Avengers{
+
+.Avengers {
     background-color: #B11313;
 }
-.page4-section6{
+
+.page4-section6 {
     background-image: url(../Illustration/img33.png);
 }
-.spidey{
+
+.spidey {
     background-color: #114b927e;
 }
-#header3{
+
+#header3 {
     background-color: #F1C530;
 }
-.logo-footer3{
+
+.logo-footer3 {
     background-color: #F1C530;
     border-radius: 50%;
     width: 150%;
     padding: 10%;
 }
-#langue2{
+
+#langue2 {
     background-color: #F1C530;
 }
-.page5-section1{
+
+.page5-section1 {
     background-image: url(../Illustration/img7.png);
-    background-size:cover;
+    background-size: cover;
     background-repeat: no-repeat;
     padding: 20% 0 15% 10%;
 }
-.page5-section2{
+
+.page5-section2 {
     background-color: #F1C530;
     padding: 5% 5%;
 }
-.description{
+
+.description {
     color: black;
     padding: 3% 4%;
 }
-.carte{
+
+.carte {
     color: black;
     font-size: 20px;
     text-align: center;
     padding: 10% 0;
 }
-.ennemi{
+
+.ennemi {
     border: 8px solid black;
     border-top: none;
     border-radius: 0px 0px 20px 20px;
@@ -404,119 +445,120 @@ select {
     box-shadow: 1px 5px 15px 1px #00000086;
 }
 
+
 /*media queries*/
-@media  screen and (max-device-width:768px) {
-    #menu-deroulant{
+
+@media screen and (max-device-width:768px) {
+    #menu-deroulant {
         justify-content: end;
     }
-    #menu-deroulant ul{
+    #menu-deroulant ul {
         position: absolute;
-    /*On cache les menus sur la gauche*/
+        /*On cache les menus sur la gauche*/
         left: -999em;
         text-align: left;
         z-index: 1000;
     }
-    .points:focus #navbar{
-    /*Au clic des trois points on replace les menus*/
+    .points:focus #navbar {
+        /*Au clic des trois points on replace les menus*/
         left: auto;
     }
-    .petite{
+    .petite {
         padding-left: 0 !important;
         text-align: center;
     }
-    .input1{
+    .input1 {
         width: 20em;
     }
-    .input-text{
+    .input-text {
         width: 20em;
     }
-    form{
+    form {
         padding-top: 10%;
     }
-    #button1{
+    #button1 {
         background-color: white;
         color: #B11313;
     }
-    .text1{
+    .text1 {
         padding-top: 0;
     }
-    h1{
+    h1 {
         text-align: center;
         padding-left: 0 !important;
     }
-    .text-sayna{
-        text-align: center ;
+    .text-sayna {
+        text-align: center;
     }
-    .list-text{
+    .list-text {
         list-style-type: none;
     }
-    .titre3{
+    .titre3 {
         font-size: 50px !important;
         text-align: left;
     }
-    .spider-peter{
+    .spider-peter {
         text-align: center;
         padding-top: 3%;
     }
-    .page3-section3{
+    .page3-section3 {
         text-align: center;
         padding: 5% 0;
     }
-    #button4{
+    #button4 {
         padding-right: 0;
     }
-    .newsletter{
+    .newsletter {
         padding-top: 0;
     }
-    .cinema{
+    .cinema {
         padding-left: 0%;
         text-align: center;
     }
-    .page3-section4{
+    .page3-section4 {
         background-position: right bottom;
         background-size: 20em;
     }
-    .titre-news{
+    .titre-news {
         text-align: center;
     }
-    .hero{
+    .hero {
         text-align: center;
     }
-    .page4-section2{
+    .page4-section2 {
         padding-left: 0 !important;
         padding-right: 0 !important;
     }
-    video{
+    video {
         padding-top: 6%;
     }
-    .page4-section3{
+    .page4-section3 {
         padding-left: 0;
     }
-    .t2{
+    .t2 {
         padding-top: 4%;
     }
-    .t3{
+    .t3 {
         padding-top: 4% !important;
     }
-    .amis{
+    .amis {
         text-align: left !important;
         padding-top: 7%;
         padding-left: 8% !important;
     }
-    .harry{
+    .harry {
         position: relative;
         top: 0em;
         left: 0em;
-        padding-top: 3%; 
-    }
-    .ned{
-        padding-top: 2%;
-    }
-    .MJ{
-        padding-top: 4%;
-    }
-    .adve{
         padding-top: 3%;
     }
-
+    .ned {
+        padding-top: 2%;
+    }
+    .MJ {
+        padding-top: 4%;
+    }
+    .adve {
+        padding-top: 3%;
+    }
 }
