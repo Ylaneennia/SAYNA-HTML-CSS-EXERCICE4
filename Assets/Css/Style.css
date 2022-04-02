@@ -283,7 +283,7 @@ select {
     padding: 6% 0 6% 10%;
     background-color: #B11313;
     background-image: url(../Illustration/img6.png);
-    background-size: 45em;
+    background-size: 33em;
     background-repeat: no-repeat;
     background-position: right center;
 }
@@ -319,6 +319,50 @@ select {
 .button5:hover{
     background-color: white;
     color: #B11313;
+}
+#header2{
+    background-color: #114C92;
+}
+#language{
+    background-color: #114C92;
+    border: 1px solid #114C92;
+}
+.logo-footer2 {
+    background-color: #114C92; 
+    border-radius: 50%;
+    width: 150%;
+    padding: 10%;
+}
+.page4-section1{
+    background-image: url(../Illustration/img19.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.page4-section2{
+    background-color: #114C92;
+}
+.page4-section3{
+    background-image: url(../Illustration/img20.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 8% 0 17% 10%;
+}
+.page4-section4{
+    background-color: #114C92;
+}
+.harry{
+    position: absolute;
+    top: 8em;
+    left: 14em;
+}
+.Avengers{
+    background-color: #B11313;
+}
+.page4-section6{
+    background-image: url(../Illustration/img33.png);
+}
+.spidey{
+    background-color: #114b927e;
 }
 
 /*media queries*/
@@ -391,7 +435,7 @@ select {
     }
     .page3-section4{
         background-position: right bottom;
-        background-size: 25em;
+        background-size: 20em;
     }
     .titre-news{
         text-align: center;
