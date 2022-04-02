@@ -384,7 +384,7 @@ select {
 }
 .page5-section2{
     background-color: #F1C530;
-    padding: 5% 0;
+    padding: 5% 5%;
 }
 .description{
     color: black;
@@ -511,9 +511,12 @@ select {
     }
     .ned{
         padding-top: 2%;
-    }{}
+    }
     .MJ{
         padding-top: 4%;
+    }
+    .adve{
+        padding-top: 3%;
     }
 
 }
