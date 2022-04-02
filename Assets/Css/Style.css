@@ -440,4 +440,41 @@ select {
     .titre-news{
         text-align: center;
     }
+    .hero{
+        text-align: center;
+    }
+    .page4-section2{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+    video{
+        padding-top: 6%;
+    }
+    .page4-section3{
+        padding-left: 0;
+    }
+    .t2{
+        padding-top: 4%;
+    }
+    .t3{
+        padding-top: 4% !important;
+    }
+    .amis{
+        text-align: left !important;
+        padding-top: 7%;
+        padding-left: 8% !important;
+    }
+    .harry{
+        position: relative;
+        top: 0em;
+        left: 0em;
+        padding-top: 3%; 
+    }
+    .ned{
+        padding-top: 2%;
+    }{}
+    .MJ{
+        padding-top: 4%;
+    }
+
 }
