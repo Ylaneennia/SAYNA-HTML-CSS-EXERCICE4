@@ -364,6 +364,45 @@ select {
 .spidey{
     background-color: #114b927e;
 }
+#header3{
+    background-color: #F1C530;
+}
+.logo-footer3{
+    background-color: #F1C530;
+    border-radius: 50%;
+    width: 150%;
+    padding: 10%;
+}
+#langue2{
+    background-color: #F1C530;
+}
+.page5-section1{
+    background-image: url(../Illustration/img7.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+    padding: 20% 0 15% 10%;
+}
+.page5-section2{
+    background-color: #F1C530;
+    padding: 5% 0;
+}
+.description{
+    color: black;
+    padding: 3% 4%;
+}
+.carte{
+    color: black;
+    font-size: 20px;
+    text-align: center;
+    padding: 10% 0;
+}
+.ennemi{
+    border: 8px solid black;
+    border-top: none;
+    border-radius: 0px 0px 20px 20px;
+    padding-bottom: 5%;
+    box-shadow: 1px 5px 15px 1px #00000086;
+}
 
 /*media queries*/
 @media  screen and (max-device-width:768px) {
